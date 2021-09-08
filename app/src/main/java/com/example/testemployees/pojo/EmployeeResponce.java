@@ -7,7 +7,7 @@ import java.util.List;
 
 public class EmployeeResponce {
 
-    @SerializedName("employee")
+    @SerializedName("response")
     @Expose
     private List<Employee> response = null;
 
